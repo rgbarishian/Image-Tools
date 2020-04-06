@@ -7,7 +7,7 @@ names.remove('Gray') #USED TO REMOVE A File in the list of images
 names.remove('rotate')
 for i in names:
     os.chdir('/home/ryan/Documents/Galaxy_Zoo/newhi') #chdir to location of images
-    img = Image.open(i).rotate(180)
+    img = Image.open(i).rotate(180) #90,180,270
     
     
     #Where you want to save to

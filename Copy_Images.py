@@ -14,6 +14,7 @@ Good_Files = pd.read_csv('/home/ryan/Documents/Galaxy_Zoo/30Disturbance_50Featur
 Good_File_Names = Good_Files.iloc[:,0]
 Good_File_Names = np.array(Good_File_Names)
 """
+###OR###
 #Import names from list
 Good_File_Names = [659875,660225,660389,662371,662690,662837,664715,666760,677207,683411,684969,685559]
 
