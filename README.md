@@ -1,5 +1,7 @@
 #README
 
+Tools I have created or used to assist with my data analysis
+
 ## Copy_Images.py
 
 Inputs: Either an array of file names or a csv of file names  
@@ -15,7 +17,7 @@ Output: plot of detected edges
 ## FITS_Cut.py
 
 William Waldron's Script to cutout sections of FITS files  
-Input: FITS image
+Input: FITS image  
 Function: Takes dimension inputs and copies that area to a new FITS File  
 
 ## Grayscape.Conversion.py
