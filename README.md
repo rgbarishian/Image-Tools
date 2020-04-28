@@ -7,6 +7,13 @@ Tools I have created or used to assist with my data analysis
 Inputs: Either an array of file names or a csv of file names  
 Function: Copy jpg images with given names to new directory  
 
+## Denoise.py
+
+Tool to take images and denoise them by non-local means denoising. Paper that describes this method can be found [here](https://www.ipol.im/pub/art/2011/bcm_nlm/article.pdf). The CV2 tool description is found [here](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_photo/py_non_local_means/py_non_local_means.html).  
+Input: .jpg or many .jpg in a directory  
+Function: Denoises image by non local means method. Smooths noisy images.  
+Output: .jpg that has been denoised
+
 ## Edge_Detection.py
 
 Attempt at using edge detection to help with networks  
